@@ -1,10 +1,10 @@
 public class FibonacciSequence {
 
     public static void main(String[] args){
-      int first  = 0;
-      int second = 1;
-      int next = 0;
-      int count= 0;
+      Integer first  = 0;
+      Integer second = 1;
+      Integer next = 0;
+      Integer count= 0;
         // Print the first two Fibonacci numbers
         System.out.print(first + " ");
         System.out.print(second + " ");

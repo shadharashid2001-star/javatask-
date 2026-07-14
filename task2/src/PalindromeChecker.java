@@ -1,10 +1,10 @@
 public class PalindromeChecker {
     public static void main(String[] args){
         //Declare and initialize the required variables.
-        int number = 1221;
-        int  original_number= number;
-        int reversedNumber =0;
-        int digit = 0;
+        Integer number = 1221;
+        Integer  original_number= number;
+        Integer reversedNumber =0;
+        Integer digit = 0;
         //loop to reverse the digits of the given number
          while (number>0){
              digit= number% 10;

@@ -1,10 +1,10 @@
 public class DecimalToBinary {
     public static void main(String[] args){
         // Declare and initialize the required variables.
-        int number = 25;
-        int originalNumber = number;
+        Integer number = 25;
+        Integer originalNumber = number;
         String binary = "";
-        int remainder =0;
+        Integer remainder =0;
         while (number>0){
             remainder = number % 2;
             binary = remainder + binary;

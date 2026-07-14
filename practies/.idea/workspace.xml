@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01817cce-c306-4684-9309-ed1a8cc619c8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.417628028045761E-256" />
+      <entry key="MS500" value="7.527970289097373E-52" />
+      <entry key="S2" value="1.6577136646037153E-13" />
+      <entry key="S5" value="8.390548914028524E-6" />
+      <entry key="S10" value="0.003937286155421833" />
+      <entry key="S30" value="0.33000607943593985" />
+      <entry key="S60" value="1.2145045804767778" />
+      <entry key="M2" value="2.6771593996354346" />
+      <entry key="M5" value="6.2941820246486495" />
+      <entry key="M10" value="11.943159130517312" />
+      <entry key="M15" value="17.489351271581377" />
+      <entry key="M30" value="34.681910609415446" />
+      <entry key="H1" value="65.96675503554606" />
+      <entry key="H2" value="112.56226388869221" />
+      <entry key="H4" value="163.60161700096697" />
+      <entry key="D1" value="241.10610091885238" />
+      <entry key="W1" value="259.70313590562665" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000014053" />
+      <entry key="S5" value="1.0000206804540808" />
+      <entry key="S10" value="1.0065741358434612" />
+      <entry key="S30" value="1.4379391158799883" />
+      <entry key="S60" value="2.4237133180301527" />
+      <entry key="M2" value="3.886350392488738" />
+      <entry key="M5" value="7.699463526664391" />
+      <entry key="M10" value="12.708219015511121" />
+      <entry key="M15" value="16.694101009886168" />
+      <entry key="M30" value="27.74323603952559" />
+      <entry key="H1" value="49.14881147551296" />
+      <entry key="H2" value="80.91201621022701" />
+      <entry key="H4" value="113.12608792288104" />
+      <entry key="D1" value="157.9775805238928" />
+      <entry key="W1" value="168.20465516915613" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.8374594084607745E-4" />
+      <entry key="MS500" value="0.17899609265014294" />
+      <entry key="S2" value="0.6504454614352567" />
+      <entry key="S5" value="0.8419725822296218" />
+      <entry key="S10" value="0.92755678922428" />
+      <entry key="S30" value="1.7257107440985042" />
+      <entry key="S60" value="3.6007327552803234" />
+      <entry key="M2" value="6.531862890376585" />
+      <entry key="M5" value="13.961673174891418" />
+      <entry key="M10" value="24.618282787326923" />
+      <entry key="M15" value="34.14965886036086" />
+      <entry key="M30" value="62.388021399646405" />
+      <entry key="H1" value="115.07691581805719" />
+      <entry key="H2" value="193.43985045704852" />
+      <entry key="H4" value="276.7023735085584" />
+      <entry key="D1" value="399.07744778137464" />
+      <entry key="W1" value="427.9068323947856" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GR39Jf6RPCS1YPODrl7PPK6dOg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArmstrongNumberChecker.executor": "Run",
+    "Application.Day2.executor": "Run",
+    "Application.DecimalToBinary.executor": "Run",
+    "Application.DigitCounter.executor": "Run",
+    "Application.DigitFrequencyCounter.executor": "Debug",
+    "Application.EvenOddCounter.executor": "Run",
+    "Application.FibonacciSequence.executor": "Run",
+    "Application.LargestNumberFinder.executor": "Run",
+    "Application.MultiplicationCalculator.executor": "Run",
+    "Application.NumberReversal.executor": "Run",
+    "Application.PalindromeChecker.executor": "Run",
+    "Application.StudentGradeCalculator.executor": "Run",
+    "Application.TEST.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/shadh/Desktop/java/practies/src/Main.java",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ArmstrongNumberChecker">
+    <configuration name="ArmstrongNumberChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArmstrongNumberChecker" />
+      <module name="practies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecimalToBinary" />
+      <module name="practies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DigitFrequencyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DigitFrequencyCounter" />
+      <module name="practies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiplicationCalculator" />
+      <module name="practies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArmstrongNumberChecker" />
+        <item itemvalue="Application.DigitFrequencyCounter" />
+        <item itemvalue="Application.DecimalToBinary" />
+        <item itemvalue="Application.MultiplicationCalculator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01817cce-c306-4684-9309-ed1a8cc619c8" name="Changes" comment="" />
+      <created>1783920405618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783920405618</updated>
+      <workItem from="1783920406568" duration="1924000" />
+      <workItem from="1783923633251" duration="6698000" />
+      <workItem from="1783940468554" duration="1196000" />
+      <workItem from="1784002551406" duration="7187000" />
+      <workItem from="1784011057303" duration="7082000" />
+      <workItem from="1784018451328" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MultiplicationCalculator.java</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

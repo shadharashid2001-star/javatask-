@@ -1,16 +1,16 @@
 public class DigitFrequencyCounter {
     public static void main(String[] args) {
         //Declare and initialize the required variables.
-        int number = 122333;
-        int originalNumber = number;
-        int targetDigit = 3;
-        int count = 0;
-        int digit = 0;
+        Integer number = 122333;
+        Integer originalNumber = number;
+        Integer targetDigit = 3;
+        Integer count = 0;
+        Integer digit = 0;
 
         //Use a loop to extract each digit from the given number.
         while (number > 0) {
             digit = number % 10;
-            if (digit == targetDigit) {
+            if (digit.equals(targetDigit)) {
                 count++;
             }
             number = number / 10;

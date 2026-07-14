@@ -4,27 +4,26 @@ public class ArmstrongNumberChecker {
     public static  void main(String[] args) {
 
         //Declare and initialize the variables
-        int number =153;
-        int original =number;
-        int digit = 0;
-        int sum =0;
-        int count = 0;
-        int temp = number;
+        Integer number =153;
+        Integer original =number;
+        Integer digit = 0;
+        Integer sum =0;
+        Integer count = 0;
+        Integer X = number;
 
 
-        while(temp > 0 ) {
+        while(X > 0 ) {
             count++;
-            temp = temp /10;
+            X = X /10;
         }
 
         while(number > 0 ){
 
             digit = number % 10;
-
-            sum += Math.pow(digit,count);
+            sum += (int) Math.pow(digit,count);
             number = number /10;
         }
-        if(sum == original) {
+        if (sum.equals(original)) {
             System.out.println("The number is an Armstrong number");
         }
 
