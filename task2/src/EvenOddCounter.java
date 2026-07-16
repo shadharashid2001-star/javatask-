@@ -17,3 +17,4 @@ public class EvenOddCounter {
         System.out.println("Odd Numbers Count:"+oddCount);
     }
 }
+
