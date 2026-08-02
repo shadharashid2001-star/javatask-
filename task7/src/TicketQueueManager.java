@@ -56,10 +56,12 @@ public class TicketQueueManager {
                     break;
 
                 case 3:
-                    if (customern.isEmpty()) {
+                    String nextCustomer = customern.peek();
+
+                    if (nextCustomer == null) {
                         System.out.println("No customers in the queue.");
                     } else {
-                        System.out.println("First customer: " + customern.element());
+                        System.out.println("First customer: " + nextCustomer);
                     }
                     break;
 
@@ -110,6 +112,3 @@ public class TicketQueueManager {
         input.close();
     }
 }
-    }
-
-    }

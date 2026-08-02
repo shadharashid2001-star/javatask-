@@ -1,8 +1,4 @@
 import java.util.*;
-
-public class HospitalPatientManager {
-    import java.util.*;
-
     public class HospitalPatientManager {
 
         public static void main(String[] args) {
@@ -153,4 +149,4 @@ public class HospitalPatientManager {
         }
     }
 
-}
+

@@ -185,10 +185,20 @@ public class StudentNameManager {
                         System.out.println("First name uppercase: " + name1.toUpperCase());
                         System.out.println("Second name lowercase: " + name2.toLowerCase());
 
-                        System.out.println("First character of first name: " + name1.charAt(0));
+                        // Check if the first name is not empty before using charAt()
+                        if (!name1.isEmpty()) {
+                            System.out.println("First character of first name: " + name1.charAt(0));
+                        } else {
+                            System.out.println("First name is empty.");
+                        }
 
+                        // Check if the first name has at least 3 characters before using substring()
                         if (name1.length() >= 3) {
                             System.out.println("First 3 characters: " + name1.substring(0, 3));
+                        } else if (!name1.isEmpty()) {
+                            System.out.println("Name has less than 3 characters.");
+                        } else {
+                            System.out.println("Cannot get characters from an empty name.");
                         }
 
                         break;
