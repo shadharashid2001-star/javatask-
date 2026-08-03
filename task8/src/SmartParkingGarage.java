@@ -9,8 +9,8 @@ public class SmartParkingGarage {
         Deque<String> parkedvehicles = new ArrayDeque<>();
 
         Integer parkingcapacity = 10;
-        Integer totalParkedToday = 0;
-        Integer totalDepartedToday = 0;
+        Integer totalparking = 0;
+        Integer totalDepart = 0;
         // open Scanner
         Scanner input = new Scanner(System.in);
         System.out.println("Enter  license plate number.:");
@@ -70,28 +70,26 @@ public class SmartParkingGarage {
                         }
                         break;
                     case 2:
-                        //Check whether the waiting queue is empty.
+
                         if (waitingvehicles.isEmpty()) {
-                            System.out.println("waiting parking empty");
+                            System.out.println("Waiting queue is empty.");
                         }
-                        // Check whether the garage is already full.
-                        if (parkedvehicles.size() < parkingcapacity) {
-                            String rem = waitingvehicles.poll();
-                            parkedvehicles.push(rem);
-                            totalParkedToday++;
-                            System.out.println(" first vehicle removed " + rem);
-                            System.out.println("Push it onto the parking stack" + parkedvehicles);
-                        } else {
-                            System.out.println(" garage is already full");
+                        if (parkedvehicles.size() >= parkingcapacity) {
+                            System.out.println("Garage is already full.");
                         }
+                        String rem = waitingvehicles.poll();
+                        parkedvehicles.push(rem);
+                        totalparking++;
+                        System.out.println("Vehicle parked: " + rem);
                         break;
+
                     case 3:
                         if (parkedvehicles.isEmpty()) {
                             System.out.println("No parked vehicles to remove.");
                         } else {
                             // Remove the top vehicle
                             String removedVehicle = parkedvehicles.pop();
-                            totalDepartedToday++;
+                            totalDepart++;
                             System.out.println("Removed vehicle: " + removedVehicle);
                             if (!waitingvehicles.isEmpty()) {
                                 String nextVehicle = waitingvehicles.poll();
@@ -154,9 +152,9 @@ public class SmartParkingGarage {
                         System.out.println("Current Parked Vehicles : " + parkedvehicles.size());
                         System.out.println("Waiting Vehicles : " + waitingvehicles.size());
                         System.out.println("Available Spaces : " + (parkingcapacity - parkedvehicles.size()));
-                        System.out.println("Total Vehicles Parked Today : " + totalParkedToday);
-                        System.out.println("Total Vehicles Departed Today : " + totalDepartedToday);
-                        System.out.println("Total Vehicles Processed : " + (totalParkedToday + totalDepartedToday));
+                        System.out.println("Total Vehicles Parked Today : " + totalparking);
+                        System.out.println("Total Vehicles Departed Today : " + totalDepart);
+                        System.out.println("Total Vehicles Processed : " + (totalparking + totalDepart));
 
                         break;
                     case 10:
@@ -183,8 +181,8 @@ public class SmartParkingGarage {
                         waitingvehicles.clear();
                         parkedvehicles.clear();
 
-                        totalParkedToday = 0;
-                        totalDepartedToday = 0;
+                        totalparking = 0;
+                        totalDepart = 0;
 
                         System.out.println("System successfully reset.");
 
