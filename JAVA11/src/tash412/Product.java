@@ -42,7 +42,7 @@ public class Product implements SELLABLE {
     }
 
     public void setQuantity(Integer quantity) {
-        if (quantity> 1 && quantity < 100){
+        if (quantity>= 1 && quantity <= 100){
         this.quantity = quantity;
     }else {
             IO.println("Quantity must be 1 to 100");
