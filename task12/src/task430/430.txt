@@ -1,0 +1,5 @@
+Polymorphism means one method can have different behaviours.
+Different objects can use the same method in different ways.
+For example, CashPayment, CardPayment, and PayPalPayment can all use process().
+Each payment type can have its own version of process().
+This makes programs easier to organize and reuse.
